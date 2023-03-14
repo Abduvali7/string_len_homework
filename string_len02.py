@@ -8,6 +8,6 @@ def main(a):
     """
     if a%2==0:
         return True
-    if a%2==1:
+    elif a%2==1:
         return False
-    print(main("jdjads"))
+    
