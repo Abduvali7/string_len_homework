@@ -7,8 +7,9 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    
+    s1 = "school"
+    s2 ="code"
     if len(s1)<=len(s2):
-        return len(s2)
-    if len(s1)>=len(s2):
         return len(s1)
+    if len(s1)-len(s2):
+        return len(s2)
