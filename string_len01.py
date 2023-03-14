@@ -6,5 +6,5 @@ def main(a):
     Returns:
         length of string
     """
-    len(a)
-    return a
+    return len(a)
+print(main("SJKD"))
