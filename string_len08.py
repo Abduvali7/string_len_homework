@@ -7,5 +7,7 @@ def main(s):
         s: str
     Returns:
         str: answer
-    """
-    return
+    """ 
+    if (s)%2==0:
+      return (s)[2:3]
+print(main("sjdkk"))
