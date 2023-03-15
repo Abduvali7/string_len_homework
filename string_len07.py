@@ -8,4 +8,10 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    return
+    if len([s1,s2])%2==0:
+        return "[]"
+    elif len([s2,s3])%2==0:
+        return "[]"
+    elif len([s1,s3])%2==0:
+        return "[]"
+print(main("school", "code", "book"))
