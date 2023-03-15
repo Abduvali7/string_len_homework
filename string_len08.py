@@ -8,6 +8,5 @@ def main(s):
     Returns:
         str: answer
     """ 
-    if (s)%2==0:
-      return (s)[2:3]
+    return s[len(s)//2]
 print(main("sjdkk"))
