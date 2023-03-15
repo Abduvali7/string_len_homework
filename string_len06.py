@@ -11,5 +11,5 @@ def main(s1,s2):
         return s1
     else:
         return s2
-print(main("school", "code"))
+print(main("school", "code")) 
 
