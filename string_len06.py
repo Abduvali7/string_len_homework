@@ -8,8 +8,8 @@ def main(s1,s2):
         shortest string
     """
     if len(s1)<=len(s2):
-        return len(s1)
+        return s1
     else:
-        return len(s2)
+        return s2
 print(main("school", "code"))
 
